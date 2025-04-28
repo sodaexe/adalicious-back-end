@@ -2,7 +2,7 @@
 
 Back-end en NodeJS x Express simple et efficace
 
-La base de données choisie ici est MySQL
+La base de données choisie ici est MySQL (le fichier `menu.json` ne sert strictement pas ici)
 
 ## ➕ Contenu complémentaire
 
