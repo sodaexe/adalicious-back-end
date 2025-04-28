@@ -1,0 +1,7 @@
+CREATE TABLE orders (
+  id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  user_id INT NOT NULL REFERENCES users(id),
+  plate_id INT NOT NULL REFERENCES orders(id),
+  created_at DATETIME NOT NULL DEFAULT(NOW()),
+  updated_at DATETIME NULL
+);
